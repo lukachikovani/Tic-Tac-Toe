@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <section>
+      <div class="input-container">
+        <div class="input-wrapper">
+          <label class="label" for=""
+            >Enter Player 1 Name
+            <input id="input1" type="text" placeholder="Enter here" required />
+          </label>
+          <label class="label" for=""
+            >Enter Player 2 Name
+            <input id="input2" type="text" placeholder="Enter here" required />
+          </label>
+        </div>
+
+        <button class="submit-btn" type="submit">Submit</button>
+      </div>
+
+      <div class="game-container">
+        <button class="reset-btn">Reset</button>
+
+        <div class="players">
+          <button id="player1">Player 1</button>
+          <button id="player2">Player 2</button>
+        </div>
+
+        <div class="game-table">
+          <button id="box1" class="game-box"></button>
+          <button id="box2" class="game-box"></button>
+          <button id="box3" class="game-box"></button>
+          <button id="box4" class="game-box"></button>
+          <button id="box5" class="game-box"></button>
+          <button id="box6" class="game-box"></button>
+          <button id="box7" class="game-box"></button>
+          <button id="box8" class="game-box"></button>
+          <button id="box9" class="game-box"></button>
+        </div>
+      </div>
+    </section>
+
+    <div class="result">
+      <div class="result-text"></div>
+      <button class="result-btn">OK</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
